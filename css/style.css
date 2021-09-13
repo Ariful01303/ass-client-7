@@ -3,7 +3,7 @@ body {
   font-family: "Montserrat", sans-serif;
 
 }
-
+ /* Style of search button  */
 .search-field {
   border: none;
   border-radius: 50px;
@@ -32,6 +32,7 @@ body {
 .margin-bottom{
   margin-top:50px ;
 }
+ /* Products style  */
 
 #all-products {
   display: grid;
@@ -72,6 +73,8 @@ body {
 .cart-main {
   padding-right: 30px;
 }
+/* products field responsive */
+
 @media only screen and (max-width: 768px) {
   #all-products {
     display: grid;
